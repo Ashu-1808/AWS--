@@ -10,17 +10,6 @@ Cloud computing is on demand delivery of compute power, database and other resou
 
 ## IaaS vs PaaS vs SaaS comparison table
 ![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/b6834737dbec8e3d232cdbcb64871a7f21dcd4a5/iaas_paas_saas.webp)
-| Component        | On-Premise (You Manage) | IaaS           | PaaS           | SaaS           |
-| ---------------- | ----------------------- | -------------- | -------------- | -------------- |
-| Application      | You                     | You            | You            | Cloud Provider |
-| Data             | You                     | You            | You            | Cloud Provider |
-| Runtime          | You                     | You            | Cloud Provider | Cloud Provider |
-| Middleware       | You                     | You            | Cloud Provider | Cloud Provider |
-| Operating System | You                     | You            | Cloud Provider | Cloud Provider |
-| Virtualization   | You                     | Cloud Provider | Cloud Provider | Cloud Provider |
-| Servers          | You                     | Cloud Provider | Cloud Provider | Cloud Provider |
-| Storage          | You                     | Cloud Provider | Cloud Provider | Cloud Provider |
-| Networking       | You                     | Cloud Provider | Cloud Provider | Cloud Provider |
 
 
 ## Drawbacks of cloud computing
