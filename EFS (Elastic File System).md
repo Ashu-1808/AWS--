@@ -60,9 +60,10 @@ Login to EC2 in AZ2 or AZ3:
 → ls
 ```
 You will see the same file ✅
+```
 Final Flow of image
 EC2 (AZ1) → Mount Target (AZ1)
 EC2 (AZ2) → Mount Target (AZ2)
 EC2 (AZ3) → Mount Target (AZ3)
 All → Connected to One EFS File System
-
+```
