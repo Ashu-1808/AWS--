@@ -1,12 +1,7 @@
 
 #  Amazon S3
-Here are your notes in **clean bullet format** 👇
 
----
-
-# ✅ Amazon S3 – Bullet Notes
-
-## 🔹 What is S3?
+##  What is S3?
 ```
 1 S3 is region-specific
 2 Used to store and retrieve unlimited data
@@ -98,4 +93,62 @@ Here are your notes in **clean bullet format** 👇
 
 ## Amazon S3 storage class:
 ![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/e7cf2f64449efbdfff60d1468816ef30d1859d9f/storage%20class.webp)
+
+
+
+
+##  S3 Replication
+```
+1. Same Region Replication (SRR)
+- Copies objects from one bucket to another bucket in the same AWS region
+- Used for: Data redundancy, Log aggregation, Compliance requirements
+- Example: Mumbai bucket → another Mumbai bucket
+
+2. Cross Region Replication (CRR)
+- Copies objects from one bucket to another bucket **in a different AWS region**
+- Used for: Disaster recovery, High availability, Global access.
+- Example:Mumbai bucket → Hyderabad bucket
+```
+
+##  EC2 to S3 (Upload & Download Process):
+This is used when you want to transfer files between an EC2 instance and an S3 bucket.
+```
+Step 1: Create Resources
+  a. Create a Linux EC2 instance
+  b. Create an S3 bucket
+  c.Give permission (S3 Full Access Create an IAM Role)   
+  d. Attach the IAM role to the EC2 instance
+  (IAM role allows EC2 to access S3 without access keys.)
+
+Step 2: Connect to EC2
+Login to your instance:
+ → sudo su -
+
+Step 3: Check S3 Buckets
+ → aws s3 ls
+(Shows list of available S3 buckets.)
+
+Step 4: Create a File in EC2
+ → touch file1.txt
+ (Creates a file inside EC2.)
+
+Step 5: Upload File to S3
+ → aws s3 mv file1.txt s3://bucket_name
+ (Moves (uploads) file from EC2 to S3 bucket.)
+
+Step 6: Download File from S3
+ → aws s3 cp s3://bucket_name/file1.txt .
+(Copies file from S3 bucket to EC2.)
+
+```
+```
+ In Simple Words
+- EC2 = Server
+- S3 = Storage
+- IAM Role = Permission bridge between EC2 and S3
+- `mv` = Upload
+- `cp` = Download
+```
+
+
 
