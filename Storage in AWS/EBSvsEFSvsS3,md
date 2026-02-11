@@ -1,4 +1,4 @@
-EBS vs EFS vs S3 (Quick Comparison Table)
+## EBS vs EFS vs S3 (Quick Comparison Table)
 
 | Feature                 | **EBS**                        | **EFS**                | **S3**                                |
 | ----------------------- | ------------------------------ | ---------------------- | ------------------------------------- |
