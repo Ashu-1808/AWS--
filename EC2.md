@@ -1,12 +1,12 @@
 
 # EC2 [Elastic Compute Cloud]
 ```
-Amazon EC2 is a foundational service within the compute domain of AWS
-It falls under IaaS
-Using ec2 we can create virtual machine
-virtualmachine / Instance / VM / server
-EC2 is a region specific service
-You can create 20 instances per region
+-Amazon EC2 is a foundational service within the compute domain of AWS
+-It falls under IaaS
+-Using ec2 we can create virtual machine
+-virtualmachine / Instance / VM / server
+-EC2 is a region specific service
+-You can create 20 instances per region
 ```
 ## steps to create Instance *
 ```
