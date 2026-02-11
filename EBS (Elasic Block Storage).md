@@ -52,7 +52,7 @@ Limits (Default)
 ## EBS Snapshot Creation –
 
 ![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/f898c23ea9822512b67c9a5eb74a1f2e88f9de51/download.png)
-Important (As shown in image)
+### Important (As shown in image)
 ```
 - First snapshot → Full backup
 - Next snapshots → Only changed blocks
