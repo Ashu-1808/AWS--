@@ -8,17 +8,25 @@
 -EC2 is a region specific service
 -You can create 20 instances per region
 ```
-## steps to create Instance *
+## Steps to Create EC2 Instance (AWS)
 ```
-1.Tag – Key-value pair used to identify and organize resources.
-2.AMI (Amazon Machine Image) – Template with OS and software to launch an instance.
-3.Instance Type – Combination of CPU and RAM capacity.
-4.Security Group – Virtual firewall that controls instance traffic.
-5.Storage – Disk type used (HDD or SSD).
-6.Key Pair – Used for secure instance login.
+1. Login to **AWS Management Console**.
+2. Go to **EC2 Dashboard**.
+3. Click **Launch Instance**.
+4. Enter **Instance Name**.
+5. Select **AMI (Operating System)**.
+6. Choose **Instance Type** (CPU & RAM).
+7. Select or Create **Key Pair**:
+Used for secure instance login.
  types:
    public Key – Stored in AWS.
-   Private Key – Downloaded by user.
+   Private Key – Downloaded by use.
+8. Configure **Security Group** (Allow SSH/HTTP/HTTPS).
+9. Configure **Storage** (HDD/SSD size).
+10. Click **Launch Instance**.
+
+→ **EC2 instance created successfully** ✅
+
 ```
 ## Types of instance state:
 ```
@@ -197,10 +205,72 @@ Steps:
  SSH configured successfully ✅
 ```
 
-## instance purchase option
+## Instance Purchase Option
 
+## Instance Type (AWS EC2)
+```
+Instance Types – Combination of **CPU, RAM, Storage & Networking capacity**.
 
+1. General Purpose
+ - Balanced CPU, memory & networking.
+ - Ideal for web servers and small businesses.
+ - Example: t2, t3 family.
+2. Compute Optimized
+ - High CPU performance.
+ - Used for compute-intensive tasks.
+ - Example: gaming servers, machine learning.
+3. Memory Optimized
+ - High RAM capacity.
+ - Best for big data, analytics & caching.
+4. Storage Optimized
+ - High disk performance (SSD/HDD).
+ - Used for databases & data-intensive apps (e.g., Hadoop).
+5. Accelerated Computing
+ - Includes GPU support.
+ - Used for AI, ML models & batch processing.
+6. HPC Optimized (High Performance Computing)
+ -Designed for high-speed computing workloads.
+ -Used for scientific simulations & complex calculations.
+```
+## EC2 Instance Purchase Option
+```
+A) On-Demand Instance
+ - Pay only for what you use.
+ - **Linux/Windows** → Per second billing (after first minute).
+ - Other OS → Per hour billing.
+ - No upfront payment.
+ - No long-term commitment.
+ - Highest cost option.
+ - Best for short-term workloads.
 
+B) Spot Instance**
+ - Up to **90% cheaper** than On-Demand.
+ - Can be terminated anytime if spot price increases.
+ - Cost-efficient option in AWS.
+ - Best for fault-tolerant workloads (testing, data analysis, image processing).
+ - Not suitable for critical jobs.
+
+C) Reserved Instance (RI)**
+  -Up to **75% cheaper** than On-Demand.
+  - 1-year or 3-year commitment.
+  -Payment Options:
+    1. Zero Upfront – No initial payment.
+    2. Partial Upfront – Some payment initially.
+    3. Full Upfront – Full payment in advance.
+
+D) Dedicated Host
+  - Physical server fully dedicated to one customer.
+  - No sharing with other AWS users.
+  - Most expensive option.
+
+E) Savings Plans
+  - Up to **75% discount** compared to On-Demand.
+  - Commitment for 1 or 3 years (e.g., $5/hour usage).
+  - Locked to specific instance family & region (e.g., t2 in ap-east-1).
+  - Flexible across instance sizes (t2.nano, t2.medium).
+  - Flexible across OS (Linux, Windows, RedHat).
+
+```
 
 
 
