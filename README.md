@@ -36,6 +36,7 @@ Cloud computing is on demand delivery of compute power, database and other resou
 -It shares CPU, RAM, and storage between VMs.
 ```
 ![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/5fd65e50807bc4c46f1cda6c911bbd39c2ed40b0/hypervisor%20types.png)
+
 ## Virtualization :
 ```
 -It helps in virtualization in AWS.
@@ -44,7 +45,7 @@ Cloud computing is on demand delivery of compute power, database and other resou
 -allowing the hardware to be used more efficiently.
 ```
 
-## ABOUT AWS
+## About AWS
 ```
 - Nitro Hypervisor used by AWS before they used XEN.
 - Default region in AWS is North-Virginia (us-east-1)
