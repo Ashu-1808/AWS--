@@ -27,7 +27,7 @@ RDBMS (Relational Database Management System)
      → It is a software or applications that manages and controls data stored in tabular form.
 
 Table
-     →Table is a collection of related data in organized manner in the form of rows and               columns.
+ →Table is a collection of related data in organized manner in the form of rows and columns.
    - Tables are related to each others
    - All fields must be filled
    - Data is filled in the form of rows & columns
