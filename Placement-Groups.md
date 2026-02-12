@@ -26,7 +26,8 @@ There are 3 types:
 ---
 
 #1. Cluster Placement Group
- Concept
+ ```
+Concept
   1. Instances are placed **close together**
   2. In the **same Availability Zone (AZ)**
   3. On the **same underlying network**
@@ -51,12 +52,13 @@ There are 3 types:
   ✔ Very high throughput
   ❌ If rack fails → multiple instances affected
 
----
+```
 
 ![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/a3875bef452015f8d03c8b45c4bf966567ca96c0/spread.png)
 
 #2. Spread Placement Group
- Concept
+ ```
+Concept
   1. Instances are placed on **separate hardware**
   2. Each instance is isolated
 
@@ -75,14 +77,15 @@ There are 3 types:
   ✔ Safe for critical apps
  ❌ Limited instances per AZ
 
----
+```
 
 
 ![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/a3875bef452015f8d03c8b45c4bf966567ca96c0/partition.png)
 
 
 #3.Partition Placement Group
- Concept
+ ```
+Concept
   1. Instances are divided into **multiple partitions**
   2. Each partition is on separate hardware racks
   3. Failure in one partition does NOT affect others
@@ -101,7 +104,7 @@ There are 3 types:
  Key Point:   
   ✔ Balance of performance + fault tolerance
   ✔ Best for distributed systems (Hadoop, Kafka)
----
+```
 
 # 🔥 Quick Comparison Table
 
