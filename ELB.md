@@ -159,14 +159,5 @@ Step 9: Testing
 ```
 #  Final Architecture After ELB Setup
 
-```
-User
-  ↓
-Application Load Balancer
-  ↓
-Target Group
-  ↓       ↓
-EC2-1   EC2-2
-```
-
+![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/68854f1ed61d3ad8bbaef29d2af23c57f3e3927f/flowchart%20load%20balancing.png)
 
