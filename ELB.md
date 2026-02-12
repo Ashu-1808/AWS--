@@ -17,6 +17,7 @@
 - Target group: Logical grouping of targets behind the ELB, target group can contain
   upto 200 target
 ```
+![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/e51ee856ba0aef781144e97fa634ad1ef3533079/1741338423279.gif)
 ## Types of Load Balancer:
 ```
 1. Application Load Balancer (ALB)
