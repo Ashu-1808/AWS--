@@ -108,11 +108,11 @@ Concept
 ---
 ##  Quick Comparison Table
 
-| Type      | Performance | Fault Tolerance | Best For            |
-| --------- | ----------- | --------------- | ------------------- |
-| Cluster   | 4/5       | 1/5               | HPC, Big Data       |
-| Spread    | 1/5           | 5/5           | Critical small apps |
-| Partition | 3/5         | 4/5            | Distributed systems |
+| Type                      | Performance | Fault Tolerance | Best For            |
+| --------------------------| ----------- | --------------- | ------------------- |
+| Cluster Placement Group   | 4/5         | 1/5             | HPC, Big Data       |
+| Spread   Placement Group  | 1/5         | 5/5             | Critical small apps |
+| Partition Placement Group | 3/5         | 4/5             | Distributed systems |
 
 ---
 
