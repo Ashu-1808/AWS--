@@ -20,7 +20,7 @@
 Types of VPC → 1. Default VPC
                2. Custom VPC
 ```
-3. 
+
 | Feature          | **Default VPC**                             | **Custom VPC**                   |
 | ---------------- | ------------------------------------------- | -------------------------------- |
 | Creation         | Automatically created by AWS in each region | Manually created by user         |
