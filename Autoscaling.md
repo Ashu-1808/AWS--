@@ -18,7 +18,7 @@ Autoscaling enables elasticity by scaling horizontally by adding or termination 
 ---
 
 Autoscaling Group
- - Desired = 1
+ - Desired = 2
  - Minimum = 1
  - Maximum = 5
 
