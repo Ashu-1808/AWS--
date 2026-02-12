@@ -1,14 +1,15 @@
 
 #  Amazon SNS (Simple Notification Service)
 
-## What is SNS?
+## ALL ABOUT SNS
 ```
-- Amazon SNS is a fully managed publish/subscribe (Pub-Sub) messaging service.
-- It is used to send messages or notifications to multiple subscribers instantly.
-- Fast, flexible, fully managed push notification service
-- Web service that manages sending messages to subscribing endpoints
-- Supports individual delivery or fan-out delivery
-- Pay-as-you-go model (No upfront cost)
+What is SNS?
+ - Amazon SNS is a fully managed publish/subscribe (Pub-Sub) messaging service.
+ - It is used to send messages or notifications to multiple subscribers instantly.
+ - Fast, flexible, fully managed push notification service
+ - Web service that manages sending messages to subscribing endpoints
+ - Supports individual delivery or fan-out delivery
+ - Pay-as-you-go model (No upfront cost)
 
 
 How SNS Works:
@@ -71,8 +72,7 @@ SNS Common Use Cases :
   7. System event notifications
 
 ```
-# 🔹 SNS vs SQS
-
+#  SNS vs SQS
 | SNS                           | SQS                            |
 | ----------------------------- | ------------------------------ |
 | Push-based                    | Pull-based                     |
@@ -81,20 +81,6 @@ SNS Common Use Cases :
 | Real-time notifications       | Message storage & processing   |
 | Fan-out supported             | No direct fan-out              |
 
-# 🔹 Simple Architecture Diagram
-
-```
-                +-----------+
-                | Publisher |
-                +-----------+
-                      |
-                      v
-                +-----------+
-                |   SNS     |
-                |   Topic   |
-                +-----------+
-               /     |      \
-              v      v       v
-           Email    SQS    Lambda
-```
+#  Simple Architecture Diagram
+![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/c75e26f59472f5f191355b8335254925d9d6637d/Amazon%20SNS%20architecture%20diagram.png)
 
