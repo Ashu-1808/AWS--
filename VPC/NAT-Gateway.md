@@ -3,7 +3,6 @@
 What is NAT Gateway?
 ```
 A NAT (Network Address Translation) Gateway allows instances in a private subnet to access     the internet.
-
 But prevents the internet from initiating a connection with those instances.
 It provides outbound internet access only.
 
