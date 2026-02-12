@@ -26,7 +26,7 @@ Important Points (Interview Ready) :
   - Cross-account VPC communication
 ```
 ## VPC Peering Connection Steps
-
+![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/f3f7c5d083bcccce13a33c34b8f0126f8198ece5/VPC/VPC%20-peering.png)
 ```
 Prerequisites:
  1.You must have two VPC’s with non-        overlapping CIDR
