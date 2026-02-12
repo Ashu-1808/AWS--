@@ -38,6 +38,71 @@
 | Complessità        | Più semplice da gestire                                   | Più complesso (load balancer, sync)    |
 | Ideale per         | Carichi prevedibili, app piccole                          | Traffico variabile, sistemi enterprise |
 
+![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/6bec3543f551d01b5de4dfa6f00549d0bd9cff17/Autoscaling%20architecture.png)
 
----
+## Steps To create Auto Scaling
 
+```
+Step-1 Create a Server Template (Launch Template / Instance Template)
+ prerequsite:
+  - Instance type (CPU, RAM)
+  - Machine image (AMI)
+  - Security group
+  - Key pair
+  - Bootstrap script (install and configure your app)
+ This template acts as the blueprint for new servers.
+
+
+Step-2 Set Up a Load Balancer
+ Create and configure:
+  - Application Load Balancer (ALB) or Network Load Balancer (NLB)
+ The load balancer:
+  - Distributes incoming traffic
+  - Performs health checks
+  - Routes traffic only to healthy instances
+ 
+Step-3 Create an Auto Scaling Group (ASG)
+Configure:
+ - Minimum instances (e.g., 2)
+ - Desired instances (e.g., 2)
+ - Maximum instances (e.g., 10)
+ - Subnets / Availability Zones
+ - Attach the Load Balancer
+The Auto Scaling Group ensures the minimum number of instances always runs.
+
+Step-4 Define Scaling Policies
+ Set rules that trigger scaling actions.
+  Common triggers:
+   - CPU utilization > 70% → Add instance
+   - CPU utilization < 30% → Remove instance
+   - High request count
+   - Memory usage threshold
+  Scaling policy types:
+   - Target tracking
+   - Step scaling
+   - Scheduled scaling
+
+Step-5. Configure Health Checks
+ Enable:
+  - Load balancer health checks
+  - Instance status checks
+  - Application endpoint check (e.g., `/health`)
+ If a server fails, the system automatically replaces it.
+
+
+Step-6 Monitor and Test
+ - Use monitoring tools (e.g., CloudWatch)
+ - Simulate traffic spikes
+ - Verify that instances scale out and scale in correctly
+
+```
+## Final Architecture
+![image alt](https://github.com/Ashu-1808/AWS-cloud-computing-for-devops/blob/6bec3543f551d01b5de4dfa6f00549d0bd9cff17/Autoscaling%20architecture.png)
+
+### Result:
+```
+ - Automatic traffic handling
+ - High availability
+ - Cost optimization
+ - No manual intervention
+```
