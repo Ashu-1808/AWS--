@@ -24,6 +24,8 @@ EC2 Storage Options:
 
 #  Create EBS → Attach to EC2-A → Add Data → Detach → Attach to EC2-B → Verify Data
 
+![image alt](https://github.com/ashu-1808/AWS/blob/f20b71c62514a6506432218982cd119e0029972f/EBS%20process%20diagram.jpg)
+
 ```
 Step 1. Create EBS Volume
 Go to AWS Console → EC2 → Volumes
