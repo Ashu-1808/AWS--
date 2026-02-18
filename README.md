@@ -70,9 +70,61 @@ Cloud computing is on demand delivery of compute power, database and other resou
 
 
 
+🔢 7 Layers of OSI Model (Top to Bottom)
+```
+7. Application Layer
+ - Closest to end user
+ - Provides network services to applications
+ - Examples: HTTP, FTP, SMTP, DNS
+ - Example: Opening a website in browser
+
+6. Presentation Layer
+ - Data formatting
+ - Encryption / Decryption
+ - Compression
+ - Example: SSL/TLS encryption
+
+5. Session Layer
+ - Establishes, manages, and terminates sessions
+ - Maintains connection between applications
+ - Example: Login session on website
+
+4. Transport Layer
+ - End-to-end communication
+ - Error handling
+ - Flow control
+ - Protocols: TCP, UDP
+ - Example: Reliable data transfer using TCP
+
+3. Network Layer
+ - Logical addressing (IP address)
+ - Routing of packets
+ - Devices: Router
+ - Protocol: IP
+
+2. Data Link Layer
+ - MAC addressing
+ - Error detection
+ - Devices: Switch
+ - Protocol: ARP
+
+1. Physical Layer
+ -  Physical transmission of bits
+ - Cables, wires, voltage signals
+ - Devices: Hub, cables
 
 
 
+📦 Data Flow Example
+ 1. Application → HTTP request
+ 2. Presentation → Encryption
+ 3. Session → Session established
+ 4. Transport → TCP segments
+ 5. Network → IP routing
+ 6. Data Link → Frame with MAC
+ 7. Physical → Bits on cable
+ 
+```
 
 
 
