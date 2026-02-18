@@ -1,10 +1,12 @@
 
 # EBS (Elastic Block Store)
 
-## EC2 Storage Options
-  ```
-  1.Instance Store (Temporary storage)
-  2.EBS (Persistent storage)
+EC2 Storage Options:
+```
+1.Instance Store – Temporary (ephemeral) storage physically attached to the host machine.
+      Data is lost when the instance is stopped or terminated.
+2.EBS (Elastic Block Store) – Persistent block storage.
+     Data remains even after the instance is stopped or terminated (if not deleted manually).
 ```
 ## What is EBS?
 ```
